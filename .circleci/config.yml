@@ -10,6 +10,6 @@ jobs:
           command: |
             git clone https://github.com/kmyk/online-judge-tools
             cd online-judge-tools
-            pip3 install -e .
+            pip3 install --user -e .
             cd ../test
             ./test.sh
