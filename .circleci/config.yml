@@ -8,6 +8,6 @@ jobs:
       - checkout
       - run:
           command: |
-            pip3 install online-judge-tools
+            pip3 install --user online-judge-tools
             cd test_oj
             ./test.sh
